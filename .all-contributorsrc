@@ -1,0 +1,77 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Josehower",
+      "name": "José Fernando Höwer Barbosa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61600906?v=4",
+      "profile": "https://upleveled.io/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Elbarae1921",
+      "name": "Elbarae Rguig",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44276243?v=4",
+      "profile": "https://github.com/Elbarae1921",
+      "contributions": [
+        "code",
+        "doc",
+        "bug"
+      ]
+    },
+    {
+      "login": "karlhorky",
+      "name": "Karl Horky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1935696?v=4",
+      "profile": "https://upleveled.io",
+      "contributions": [
+        "code",
+        "doc",
+        "security"
+      ]
+    },
+    {
+      "login": "mohammedmoutawakkil",
+      "name": "Moutawakkil Mohammed",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70536218?v=4",
+      "profile": "http://mwk.vercel.app",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "bharathkalyans",
+      "name": "Bharath Kalyan S",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49526472?v=4",
+      "profile": "https://github.com/bharathkalyans",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "MohcineDev",
+      "name": "MohcineDev",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62650926?v=4",
+      "profile": "https://mohcinedev.netlify.app",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "next-portfolio-dev",
+  "projectOwner": "smakosh",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular",
+  "commitType": "docs"
+}
