@@ -22,5 +22,19 @@ Aegis is a modular Discord bot designed to handle a wide range of community mana
 - User leveling system
 - Administrator toolkit
 - Music playback
+- Web dashboard (Next.js) for server configuration
 
 This repository currently provides the project skeleton. Future contributions are welcome!
+
+## Web Dashboard
+
+The `dashboard/` directory contains a minimal Next.js application used for
+future configuration of the bot via a web interface. To get started:
+
+```bash
+cd dashboard
+npm install
+npm run dev
+```
+
+This will start the Next.js development server on `http://localhost:3000`.
