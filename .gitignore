@@ -1,0 +1,13 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.db
+
+# Node modules
+/dashboard/node_modules/
+
+# Logs
+*.log
+
+# Environment files
+.env
