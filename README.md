@@ -38,3 +38,9 @@ npm run dev
 ```
 
 This will start the Next.js development server on `http://localhost:3000`.
+
+### Deployment on Vercel
+
+The dashboard lives in a subdirectory. If Vercel cannot detect your Next.js
+version, ensure the project root is set to `dashboard/` or keep the provided
+`vercel.json` which points the build system to the correct package.

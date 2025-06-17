@@ -5,7 +5,20 @@ from logging.handlers import TimedRotatingFileHandler
 
 
 def setup_logger(name: str = "aegis", log_file: str = "aegis.log") -> logging.Logger:
-    """Configure and return a logger."""
+    """Configure and return a logger.
+
+    Parameters
+    ----------
+    name: str
+        Name of the logger to create.
+    log_file: str
+        File path where logs should be written.
+
+    Returns
+    -------
+    logging.Logger
+        Configured logger instance.
+    """
     logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
 

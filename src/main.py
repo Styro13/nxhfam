@@ -1,8 +1,5 @@
 """Entry point for running the Aegis bot."""
 
-import asyncio
-from importlib import import_module
-
 from discord.ext import commands
 
 from .utils.config import get_env
@@ -19,13 +16,13 @@ MODULES = [
 
 
 def load_modules(bot: commands.Bot) -> None:
-    """Dynamically load all modules listed in MODULES."""
+    """Dynamically load all modules listed in ``MODULES``."""
     for module in MODULES:
         bot.load_extension(module)
 
 
 def main() -> None:
-    """Start the bot."""
+    """Start the bot using the token from environment variables."""
     token = get_env("AEGIS_TOKEN")
     logger = setup_logger()
 
