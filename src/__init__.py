@@ -1,1 +1,1 @@
-"""Root package for the project."""
+"""Aegis bot source package."""

@@ -1,17 +1,26 @@
-# Project Nxhfam
+# Aegis - The All-in-One Community Management Bot
 
-This repository serves as a clean starting point for a modular application. The project emphasizes creating self-contained modules (cogs) for new features while sharing core functionality through central utilities. 
+Aegis is a modular Discord bot designed to handle a wide range of community management tasks. Each major feature resides in its own module so that the codebase stays maintainable and easy to extend.
 
-## Guidelines
+## Philosophy
 
-- **Maintain Modularity:** Implement each feature in its own module to keep the codebase organized.
-- **Abstract Core Logic:** Place shared functionality in `src/utils/` to prevent code duplication.
-- **Prioritize Documentation:** Document functions, classes, and modules with docstrings and comments.
+- **Maintain Modularity**: Develop new features as individual cogs under `src/modules/`.
+- **Abstract Core Logic**: Place common helpers in `src/utils/` to avoid code duplication.
+- **Prioritize Documentation**: Every function and class must include clear docstrings and inline comments describing its behavior.
 
 ## Getting Started
 
 1. Clone the repository.
-2. Install dependencies for your environment.
-3. Add new modules under `src/modules/` and shared utilities under `src/utils/`.
+2. Install Python dependencies with `pip install -r requirements.txt`.
+3. Configure your environment variables (bot token, database URL, etc.).
+4. Add new modules under `src/modules/` and share helpers in `src/utils/`.
 
-Contributions are welcome! Please follow the guidelines above when submitting pull requests.
+## Features Overview
+
+- Dynamic voice channel management
+- Server economy with virtual shop
+- User leveling system
+- Administrator toolkit
+- Music playback
+
+This repository currently provides the project skeleton. Future contributions are welcome!
